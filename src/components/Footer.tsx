@@ -1,4 +1,4 @@
-import { Github, Linkedin, Twitter, Globe } from 'lucide-react';
+import { Github, Linkedin, Twitter } from 'lucide-react';
 
 export default function Footer() {
   const currentYear = new Date().getFullYear();
@@ -51,9 +51,6 @@ export default function Footer() {
               </a>
               <a href="#" className="p-2 bg-gray-800 rounded-lg hover:bg-blue-600 transition-colors">
                 <Github size={20} />
-              </a>
-              <a href="#" className="p-2 bg-gray-800 rounded-lg hover:bg-blue-600 transition-colors">
-                <Globe size={20} />
               </a>
             </div>
           </div>
