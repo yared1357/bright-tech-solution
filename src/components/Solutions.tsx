@@ -35,7 +35,7 @@ export default function Solutions() {
   ];
 
   return (
-    <section id="solutions" className="py-24 bg-gradient-to-br from-blue-50 to-blue-600">
+    <section id="solutions" className="py-24 bg-gradient-to-br from-blue-100 via-blue-400 via-green-200 to-blue-100">  
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
