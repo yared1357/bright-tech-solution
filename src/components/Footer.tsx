@@ -14,7 +14,7 @@ export default function Footer() {
             <p className="text-sm text-gray-400 leading-relaxed">
               Transforming businesses worldwide with innovative technology solutions since 2010.
             </p>
-            <br></br>
+            <br />
             <p className="text-sm text-gray-400 leading-relaxed">
               We are known for the quality and timely delivery of our customers' projects.
             </p>
@@ -42,14 +42,14 @@ export default function Footer() {
 
           <div>
             <h4 className="text-white font-semibold mb-4">Connect</h4>
-            <div className="flex gap-4">
-              <a href="#" className="p-2 bg-gray-800 rounded-lg hover:bg-blue-600 transition-colors">
+            <div className="flex flex-col gap-4">
+              <a href="#" className="p-2 bg-gray-800 rounded-lg hover:bg-blue-600 transition-colors w-12 text-center">
                 <Twitter size={20} />
               </a>
-              <a href="#" className="p-2 bg-gray-800 rounded-lg hover:bg-blue-600 transition-colors">
+              <a href="#" className="p-2 bg-gray-800 rounded-lg hover:bg-blue-600 transition-colors w-12 text-center">
                 <Linkedin size={20} />
               </a>
-              <a href="#" className="p-2 bg-gray-800 rounded-lg hover:bg-blue-600 transition-colors">
+              <a href="#" className="p-2 bg-gray-800 rounded-lg hover:bg-blue-600 transition-colors w-12 text-center">
                 <Github size={20} />
               </a>
             </div>
@@ -59,9 +59,7 @@ export default function Footer() {
         <div className="border-t border-gray-800 pt-8 text-center text-sm">
           <p>Copyrights &copy; {currentYear} GlobalTech Solutions | Developed by <a href="https://yared.infinityfreeapp.com/" target="_blank" rel="noopener noreferrer" className="text-blue-400 hover:underline">
               Y-Global System Solution
-           {''} </a>
-            | All rights reserved.</p>
-         
+           </a> | All rights reserved.</p>
         </div>
       </div>
     </footer>
